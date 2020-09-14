@@ -1,0 +1,123 @@
+/* Custom Stylesheet */
+/**
+ 
+ * Made By  hArinandanShukla ,Webdevloper 
+ */
+/* Normal desktop :1200px. */
+/* Normal desktop :992px. */
+/* Tablet desktop :768px. */
+/* small mobile :320px. */
+/* Large Mobile :480px. */
+body {
+  
+  font-weight: normal;
+  font-style: normal;
+
+  
+  -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        
+}
+
+/* navbar*/
+.bolder
+{
+  font-weight: bolder;
+  
+}
+.bold
+{
+  font-weight: bold;
+}
+.pd1
+{
+  padding-top: 10px;
+ 
+  margin-top: 90px;
+}
+.pd2
+/*  header css */
+.headc
+{
+ 
+  border-bottom: 8px solid green;
+}
+/**
+index page sextion1 
+*/
+.bg1
+
+{
+  
+}
+.svg1
+{
+  height: 40vh;
+
+  background-image: url(../svg/svg1.svg);
+  
+  background-repeat: no-repeat;
+}
+
+/*index page sextion2  */
+.bg2
+{
+  background-color: rgb(244, 253, 242);
+ 
+}
+.sicon
+{
+  font-size: 40px;
+  padding: 10px;
+  background-image:linear-gradient(to right, rgb(6, 71, 6),rgb(14, 182, 42));
+  border-radius: 50%;
+  color:white;
+  
+}
+.pd3
+{
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color:rgb(234, 248, 231);
+  
+ 
+}
+.sh2
+{
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+/*
+<!-- section 3rd homepage-->
+*/
+.pviews1
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+.comma
+{
+  font-size: 25px;
+}
+/*
+<!-- section 4th homepage-->
+*/
+.bg4
+{
+  height: 50vh;
+  color: white;
+}
+.topm
+{
+  margin-top: 60px;
+}
+.fa-whatsapp, .fa-envelope
+{
+padding: 10px;
+}
