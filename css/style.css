@@ -12,17 +12,50 @@ body {
   
   font-weight: normal;
   font-style: normal;
-
+font-family: 'Times New Roman', Times, serif;
   
   -webkit-user-select: none;
         -webkit-touch-callout: none;
         -moz-user-select: none;
         -ms-user-select: none;
-        user-select: none;
+      
         
 }
 
 /* navbar*/
+.lsize
+{
+  font-size: 20px;
+}
+.logos
+{
+  font-size: 30px;
+}
+@media(max-width: 502px)
+{
+  .logos{
+    font-size: 20px;
+    margin-left: -20px;
+  }
+}
+@media(max-width: 300px)
+{
+  .logos{
+    font-size: 15px;
+    
+  }
+}
+.lig1
+{
+  background-color: white;
+ 
+}
+.lig2
+{
+  background-color: rgb(247, 247, 247);
+}
+
+
 .bolder
 {
   font-weight: bolder;
@@ -35,15 +68,33 @@ body {
 .pd1
 {
   padding-top: 10px;
- 
-  margin-top: 90px;
+ font-family: 'Times New Roman', Times, serif;
+  margin-top: 40px;
 }
+
 .pd2
+{
+  margin-top: 50px;
+  
+}
 /*  header css */
 .headc
 {
  
-  border-bottom: 8px solid green;
+ 
+}
+
+
+.bgc
+{
+  background-color: rgb(29, 16, 16);
+}
+
+.shc
+{
+  margin: 20px;
+  padding: 20px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 /**
 index page sextion1 
@@ -119,5 +170,160 @@ index page sextion1
 }
 .fa-whatsapp, .fa-envelope
 {
+  margin-right: 5px;
 padding: 10px;
+}
+.fa-whatsapp{
+  background-color:green;
+  border-radius: 50%;
+}
+
+.fa-envelope
+{
+  color:rgb(0, 0, 0);
+  background-color: rgb(244, 242, 255);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+/* footer*/
+.qkwidth
+{
+  width: 200px;
+  text-align: left;
+  border: none;
+
+box-shadow: none;}
+.inline
+{
+  display: inline;
+}
+.fa-facebook
+{
+  padding: 3px;
+  color: blue;
+  font-size: 30px;
+}
+.fa-youtube-play
+{padding: 3px;
+  color: red;
+  font-size: 30px;
+}
+.fa-instagram
+{padding: 3px;
+  color: red;
+  font-size: 30px;
+}
+.fa-twitter
+{padding: 3px;
+  color: rgb(3, 201, 236);
+  font-size: 30px;
+}
+.fa-calendar
+{padding: 3px;
+  color: blue;
+  font-weight:bold;
+}
+
+
+
+
+/* About us*/
+.bga
+{
+ 
+
+   
+}
+
+.abouth4b
+{
+  border-bottom: 5px solid green;
+}
+.imgsize
+{
+  width: 400px;
+  height: 400px;
+}
+@media(max-width:450px)
+{
+  .imgsize
+{
+  width: 250px;
+  height: 300px;
+}
+}
+.aboutp
+{
+margin-top: 50px;
+text-align: justify;
+}
+
+
+.mgt
+{
+  
+}
+.h6t
+{
+  border-left: 3px solid green;
+  background-color: rgb(247, 255, 235);
+  padding: 10px;
+}
+
+.team{
+ 
+  
+  background-image: url(img/logo.jpg);
+}
+.teamimg
+{
+  width: 130px;
+  border-radius: 50%;
+ margin-top: 25px;
+  height: 130px;
+}
+
+
+/* testform*/
+.testrigester 
+{
+width: 640px;
+}
+@media (max-width:640px)
+{
+  .testrigester 
+{
+width: 400px;
+margin: 0;
+}
+}
+@media (max-width:320px)
+{
+  .testrigester 
+{
+width: 300px;
+margin: 0;
+}
+}
+
+
+/* chapterlinks*/
+.chwidth
+{
+  text-align: left;
+  
+  width:450px;
+
+}
+.chmg
+{
+  margin-top: 50px;
+  text-align: center; 
+}
+
+
+.mg
+{
+  margin: 25px;
+  font-weight: bold;
 }
